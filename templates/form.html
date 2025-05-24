@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Name Form</title>
+</head>
+<body>
+    <h1>Enter Your Name</h1>
+    <form method="POST">
+        First Name: <input type="text" name="first_name" required><br><br>
+        Last Name: <input type="text" name="last_name" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if full_name %}
+    <h2>Hello, {{ full_name }}!</h2>
+    {% endif %}
+</body>
+</html>
