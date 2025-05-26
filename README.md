@@ -1,2 +1,2 @@
 # my-name
-my name flask project
+my name flask project.
