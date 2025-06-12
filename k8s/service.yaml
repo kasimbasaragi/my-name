@@ -8,6 +8,6 @@ spec:
     app: myname
   ports:
   - protocol: TCP
-    port: 80         # service port
-    targetPort: 5000   # container port
+    port: 5000         # service port
+    targetPort: 80   # container port
     nodePort: 30007    # external port on the node
