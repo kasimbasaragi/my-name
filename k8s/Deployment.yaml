@@ -16,4 +16,4 @@ spec:
       - name: myname
         image: kasimbasaragi/myname:latest
         ports:
-        - containerPort: 5000
+        - containerPort: 80
